@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: opensearch
+    env: docker
+    plan: free
+    ports:
+      - port: 9200
